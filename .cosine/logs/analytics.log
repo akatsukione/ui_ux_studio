@@ -1,0 +1,5 @@
+
+INFO [2023-10-31T14:26:27.233Z]: opened
+INFO [2023-10-31T14:26:27.233Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics","token":"1803ee20efed77dfecbf705fb8dc4c18","mp_lib":"node","$lib_version":"0.17.0"}
+INFO [2023-10-31T19:27:21.007Z]: opened
+INFO [2023-10-31T19:27:21.007Z]: {"agent":"cosine-vscode","version":"1.0.6","package":"@cosine/analytics","token":"1803ee20efed77dfecbf705fb8dc4c18","mp_lib":"node","$lib_version":"0.17.0"}

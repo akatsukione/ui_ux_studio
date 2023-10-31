@@ -1,13 +1,29 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import {
+  SignInPage,
+  SignUpPage,
+  ForgotPwdPage,
+  VerifyCodePage,
+  PwdSuccessPage,
+} from 'pages'
 
-function App() {
+import './App.css'
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/signin" element={<SignInPage />}></Route>
+          <Route path="/signup" element={<SignUpPage />}></Route>
+          <Route path="/forgot-pwd" element={<ForgotPwdPage />}></Route>
+          <Route path="/verify-code" element={<VerifyCodePage />}></Route>
+          <Route path="/pwd-success" element={<PwdSuccessPage />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
