@@ -1,13 +1,25 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { SignInPage } from 'pages'
+import {
+  SignInPage,
+  SignUpPage,
+  ForgotPwdPage,
+  VerifyCodePage,
+  PwdSuccessPage,
+} from 'pages'
+
 import './App.css'
+
 const App: React.FC = () => {
   return (
     <div>
       <BrowserRouter>
         <Routes>
           <Route path="/signin" element={<SignInPage />}></Route>
+          <Route path="/signup" element={<SignUpPage />}></Route>
+          <Route path="/forgot-pwd" element={<ForgotPwdPage />}></Route>
+          <Route path="/verify-code" element={<VerifyCodePage />}></Route>
+          <Route path="/pwd-success" element={<PwdSuccessPage />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

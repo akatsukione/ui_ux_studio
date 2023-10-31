@@ -1,1 +1,1 @@
-export * from './signinPage'
+export * from './auth'

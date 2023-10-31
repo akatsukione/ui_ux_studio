@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "333333": "#333", // Replace with your desired color
         "C5C5C5": "#C5C5C5",
+        "C3C3C3": "#C3C3C3",
         "B8B8B8": "#B8B8B8",
         "575DFB": "#575DFB",
       },

@@ -1,0 +1,9 @@
+
+INFO [2023-10-31T14:26:26.376Z]: Set User: f6cc72fa-3b1e-4008-9f6f-e8e82ab92eea
+INFO [2023-10-31T14:26:26.377Z]: Set Tag: sentry_scope: vscode-extension
+INFO [2023-10-31T14:26:27.231Z]: Tracking open event
+INFO [2023-10-31T14:26:27.242Z]: {}
+INFO [2023-10-31T19:27:19.802Z]: Set User: f6cc72fa-3b1e-4008-9f6f-e8e82ab92eea
+INFO [2023-10-31T19:27:19.802Z]: Initializing feature flags
+INFO [2023-10-31T19:27:21.005Z]: Tracking open event
+INFO [2023-10-31T19:27:21.011Z]: opened
