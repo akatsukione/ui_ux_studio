@@ -6,7 +6,7 @@ import pinkBgImg from 'assets/pink-bg.png'
 export const VerifyCodeView: React.FC = () => {
   return (
     <div className="bg-[url('assets/sidebar-bgimg.png')] bg-no-repeat">
-      <img src={pinkBgImg} className="absolute" alt="pink Img" />
+      <img src={pinkBgImg} className="absolute  z-10" alt="pink Img" />
       <div className="container flex mx-auto max-w-[1440px] min-h-screen bg-[url('assets/pink-bg.png')] bg-no-repeat">
         <img className="ml-60 mt-32 mb-24 mr-20" src={personImg} alt="" />
         <div className="flex flex-col mr-26 justify-center items-center">
