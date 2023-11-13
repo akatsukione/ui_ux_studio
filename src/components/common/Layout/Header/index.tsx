@@ -59,7 +59,7 @@ export const HeaderComponent: React.FC = () => {
 
                     <li>
                       <a
-                        href="#"
+                        href="/create-board"
                         className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
                         Create a Board
@@ -98,7 +98,6 @@ export const HeaderComponent: React.FC = () => {
             className="relative inline-flex items-center p-3 text-sm font-medium text-center text-white rounded-lg mx-11"
           >
             <BellIcon />
-            <span className="sr-only">Notifications</span>
             <div className="absolute inline-flex items-center justify-center w-5 h-5 text-xs font-bold text-white bg-red-500 rounded-full top-1 right-1 dark:border-gray-900">
               12
             </div>

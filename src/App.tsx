@@ -21,7 +21,7 @@ const App: React.FC = () => {
           <Route path="/forgot-pwd" element={<ForgotPwdPage />}></Route>
           <Route path="/verify-code" element={<VerifyCodePage />}></Route>
           <Route path="/pwd-success" element={<PwdSuccessPage />}></Route>
-          <Route path="/dashboard" element={<DashboardPage />}></Route>
+          <Route path="/dashboard/*" element={<DashboardPage />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
